@@ -1,19 +1,17 @@
-/* === style.css - Estilo visual inspirado en TRON === */
 
-/* Estilo global del cuerpo de la página */
 body {
-    background-color: #0d0d0d; /* Fondo negro oscuro para resaltar los colores neón */
-    color: #00ffff; /* Color cian neón para el texto */
-    font-family: 'Courier New', Courier, monospace; /* Fuente monoespaciada estilo retro-futurista */
+    background-color: #0d0d0d; 
+    color: #00ffff; 
+    font-family: 'Courier New', Courier, monospace; 
     margin: 0;
     padding: 0;
-    display: flex; /* Centra el contenido horizontalmente */
+    display: flex; 
     justify-content: center;
     align-items: flex-start;
-    min-height: 100vh; /* Asegura que la página ocupe al menos el alto de la ventana */
+    min-height: 100vh; 
   }
   
-  /* Contenedor principal del contenido */
+  
   .container {
     background-color: rgba(0, 255, 255, 0.05); /* Fondo casi transparente con tinte cian */
     border: 2px solid #00ffff; /* Borde cian brillante */
@@ -26,14 +24,12 @@ body {
     text-align: center; /* Centra el texto y los elementos internos */
   }
   
-  /* Título principal */
   h1 {
     color: #00ffff; /* Color de texto cian */
     margin-bottom: 20px;
     text-shadow: 0 0 10px #00ffff; /* Sombra brillante detrás del texto para dar efecto TRON */
   }
   
-  /* Campo de entrada de texto */
   input {
     width: 100%; /* Ocupar todo el ancho disponible */
     padding: 12px; /* Espacio interno */
@@ -47,7 +43,6 @@ body {
     margin-bottom: 20px; /* Espacio debajo del input */
   }
   
-  /* Contenedor de cada país que se muestra como resultado */
   .country {
     background-color: rgba(0, 255, 255, 0.05); /* Fondo tenue con tono cian */
     border: 1px solid #00ffff; /* Borde cian claro */
@@ -57,13 +52,11 @@ body {
     box-shadow: 0 0 10px #00ffff; /* Sombra neón para dar efecto brillante */
   }
   
-  /* Nombre del país (destacado) */
   .country strong {
     font-size: 20px;
     color: #00ffff; /* Texto en color cian brillante */
   }
   
-  /* Estilo de la bandera del país */
   .country img {
     margin-top: 10px;
     border: 2px solid #00ffff; /* Borde cian para que combine con el estilo */
